@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h3,h1{
+    font-size: 25px;
+    margin-bottom: 9px;
+    color: white;
+}
+
+body{
+    margin: 0 auto;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 53, 100);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(79, 100, 57);
+}
+
+.icono{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+/*titulo*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+.titulo h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/*menu*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    /* border: 1px solid red; */
+}
+.menu .menu_container{
+    width: 100%;
+}
+.menu_container ul li,
+.menu_container ul li a
+{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.menu_container ul{
+    display: flex;
+}
+
+.menu_container ul li{
+    background-color: rgb(91, 148, 255);
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+
+.menu_container li:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.menu_container li a:hover{
+    transition: 0.5s;
+}
+
+/* grid */
+.contenido ul{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 3px;
+}
+
+.contenido ul,
+.contenido ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.contenido ul li a img{
+    height: 100%;
+}
+.contenido ul li a img:hover{
+    transition: 0.5s;
+    border: 2px solid black;
+}
+.contenido ul .borde:hover{
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+
+.contenido1{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+}
+
+.contenido2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+
+
+
